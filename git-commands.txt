@@ -20,7 +20,7 @@ git push -u origin main
 git add .
 git commit -m "message"
 git tag --a v1.0 <commit-ID> -m "message about v1"
-git ls-files
+git ls-files  ##lists files present in the index (staging area) 
 git show <v1.0>
 git remote -v
 git remote add origin
