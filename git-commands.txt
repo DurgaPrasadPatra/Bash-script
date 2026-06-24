@@ -1,10 +1,14 @@
+==========================
+Git Commands
+Durga Prasad Patra
+==========================
 git init
 ls-a
 git --version
 git status
 
 git clone <repo url>
-git pull origin master
+git pull origin <master>
 
 git config --global user.name "Author Name"
 git config --global user.email "email_id@example.com"   
