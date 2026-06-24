@@ -1,0 +1,64 @@
+git init
+ls-a
+git --version
+git status
+
+git clone <repo url>
+git pull origin master
+
+git config --global user.name "Author Name"
+git config --global user.email "email_id@example.com"   
+git remote add origin https://github.com/username/repository-name.git
+git push -u origin main   
+#Using the -u (or --set-upstream) flag tells Git to remember the
+# relationship between your local branch and the remote branch.
+
+git add .
+git commit -m "message"
+git tag --a v1.0 <commit-ID> -m "message about v1"
+git ls-files
+git show <v1.0>
+git remote -v
+git remote add origin
+git log --oneline <branch name>
+git show <commit id>
+git push origin
+
+git revert <commit id>
+
+git reset --hard <prev-commit id>
+git reset --soft <prev-commit id>
+git reset --mixed <prev-commit id>
+
+git branch
+git checkout master
+git merge <child branch>
+git cherrypick <coomit id of file on child branch>
+git fetch origin
+git rebase master
+
+git stash
+git stash list
+git stash pop <array index>
+git stash apply <array index>
+git stash drop <array index>
+git stash clear
+
+git diff <file name>
+git diff --staged <file name>
+
+git fetch origin <main>
+git pull origin <main>
+
+git fork
+git clone
+
+
+#After mergin with parent branch delete can be performed
+git branch -d <branchname to be deleted>
+#forcful delete
+switch to mastergit branch -D <target branch>
+
+Pull request
+
+
