@@ -1,0 +1,104 @@
+====================================
+Git Revision. Date- 23rd June 2026 .
+Morning 8 Am - MArch @ 2026 batch
+Durga Prasad Patra
+====================================
+
+
+what is the difference between git pull and git pull request?
+step of pull request-
+starts from git pull and code base at workstation is updated
+
+1. work on bug and fix code at workstation
+2.git add . #to move into staging
+3. git commit -m " bug fixed"
+4.git push origin <feature/bugfix>
+5. pull request arise, 
+approvers approve and we send url to group
+upon final approval it is merged with parent branch   
+
+question2. What is difference beyween stash apply and stash pop ?
+     stash apply -
+	 benefit of stash apply - every branch can access because
+	 stash is temporary location that scope through out local repo.
+	 so accross the branch it can be accessed.
+	 
+3. how to delete entire stash?
+git stash delete
+
+git stash clear
+ 
+4.what is the difference between git pull and git fetch?
+git pull- in sync workspace with main repo
+git fetch- only info but no download
+
+5. What is git tagging and why we use it?
+git tag is primarily used to specify version of commit 
+so that it is easier to track
+command:
+git tag --a v1 <commit-id> -m "this is the version "
+
+6.difference between git merge and git cherry pick?
+
+Git merge -  all commits are merged
+
+Cherry pick- specific commit id is merged
+         
+7. Difference between Rebase and Merge? V.Imp
+            merge is child to parent
+			
+			rebase is parent to child ..it changes order of commit history
+			first parent commit history comes then child commit history
+8. What is git clone and what is git fork? Difference
+ git clone is for single account that downloads from remote repo
+ git fork is accross different account -remote repo
+ 
+9. What is git ignore and use case of git ignore?
+git ignore - to prevent a file or file types to get commited to local repo
+use case- log files 
+git doesnot track files,if it is added to .gitignore 
+
+10. What is git log history and write all commands of log history?
+ git log --oneline
+ 
+ info in a log history - 
+ 1.commit id
+ 2.date 
+ 3.message
+ 4.username and email id
+ 
+ 11.How many file stages are there in git?
+ 
+ workspace -> staging ->local repo
+ 
+ 12.Difference between staging and local repo?
+ 
+ 13.what is merge conflict and how to solve merge conflict?
+ file name same and different content
+ conflict arises
+ manually conflict is resolved
+ add commmit and push again
+ 14. What is head in Git?
+ Head is a pointer which points to latest point
+ 
+ 15.How to delete a branch?
+ first empty the branch
+ then delete process is allowed
+ 
+ 16.What is the difference between https and ssh connection write the steps.
+ https-443 
+ user name 
+ token (from developer setting)
+ advantage- easy set up 
+ 
+ ssh-
+ from local machine  key gen command 
+ we generate public and private key
+ private key stays on local machine
+ public key is passed to git hub settings
+ private key(local machine) -> ssh -> remote repo
+ 
+ Assignment-  Write all comands of git with its usage?
+ 
+ Tomorrow- RDS cluster ,setup , management and snapshot
+ port mapping 
